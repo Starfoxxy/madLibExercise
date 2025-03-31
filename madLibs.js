@@ -5,7 +5,6 @@ const mathResult = 4 + 5;
 let circusAdjective = "crazy";
 let storyTone = "Amusing";
 let clownOutfit = "colorful polka-dot suit";
-let clownPersonality = "wildly funny"
 let clownMessage = "I once tried to juggle spaghetti. It got messy!";
 
 const clown = {
@@ -14,9 +13,9 @@ const clown = {
     sound: "honk honk",
 }
 
-const clownAction = clown.action;
+const clownName = clown.name;
 
-
+const story = `In a ${circusAdjective} circus tent, I stumbled upon a hidden clown factory. The ${clownOutfit} clowns were juggling balloons endlessly. One clown, named ${clownName}, ${clownAction}. It ${clownSound} and said, '${clownMessageText}' Did you know ${mathResult} equals ${booleanValue ? 'true' : 'false'}? ${storyTone}, right?`;
 
 
 
