@@ -10,12 +10,16 @@ let clownMessage = "I once tried to juggle spaghetti. It got messy!";
 const clown = {
     name: "Bozo",
     action: "juggled flaming pineapples",
-    sound: "honk honk",
+    sound: "honked honked",
 }
 
 const clownName = clown.name;
+const clownAction = clown.action;
+const clownSound = clown.sound;
 
-const story = `In a ${circusAdjective} circus tent, I stumbled upon a hidden clown factory. The ${clownOutfit} clowns were juggling balloons endlessly. One clown, named ${clownName}, ${clownAction}. It ${clownSound} and said, '${clownMessageText}' Did you know ${mathResult} equals ${booleanValue ? 'true' : 'false'}? ${storyTone}, right?`;
+const story = `In a ${circusAdjective} circus tent, I stumbled upon a hidden clown factory. The ${clownOutfit} clowns were juggling balloons endlessly. One clown, named ${clownName}, ${clownAction}. It ${clownSound} and said, '${clownMessage}' Did you know ${mathResult} equals ${booleanValue ? 'true' : 'false'}? ${storyTone}, right?`;
 
+document.getElementById("madlibs-output").textContent = story;
 
+console.log(story);
 
